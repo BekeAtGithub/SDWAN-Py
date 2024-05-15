@@ -69,7 +69,7 @@ def pretty_print_device_data(data):
         else:
             controlConnections = device['controlConnections']
         
-        if device['reachability'] == 'unreachable':
+        if device['reachability'] == 'Unreachable':
             reach = f'[red]unreachable[/red]'
         else:
             reach = f'[green]{device["reachability"]}[/green]'
